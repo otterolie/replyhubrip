@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         strategy="lazyOnload"
       />
 
-      <div className="flex flex-col min-h-screen bg-white">
+      <div className="flex flex-col bg-white">
         <header className="py-4 px-8">
           <svg
             className="w-16 h-16"
@@ -67,9 +67,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           ></Script>
         </main>
 
-        <footer className="bg-gray-100 py-6 absolute bottom-0 w-full opacity-75">
-          <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center md:justify-between items-center">
+        <footer className="bg-gray-100 py-6 fixed bottom-0 w-full opacity-75">
+    <div className="container mx-auto px-4">
+      <div className="flex flex-wrap justify-center md:justify-between items-center">
               <div className="flex items-center space-x-2 md:space-x-3">
                 <a
                   href="https://twitter.com/poyo_eth"
