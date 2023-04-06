@@ -1,4 +1,5 @@
-import type { AppProps } from 'next/app';
+import React from 'react';
+import { AppProps } from 'next/app';
 import Head from 'next/head';
 import Script from 'next/script';
 
@@ -28,7 +29,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <a href="https://hackernoon.com/having-trouble-keeping-up-gngm-tweets-try-this-tool-instead" target="_blank" className="mb-6">
             <img src="https://hackernoon.com/hn-logo.png" alt="Hackernoon Logo" className="w-32 h-auto" />
           </a>
-          <a className="twitter-timeline mt-8" data-lang="en" data-width="600" data-height="700" data-dnt="true" data-theme="light" href="https://twitter.com/replyhubHQ">Tweets by TwitterDev</a>
+          <a className="twitter-timeline mt-8" data-lang="en" data-width="600" data-height="500" data-dnt="true" data-theme="light" href="https://twitter.com/replyhubHQ">Tweets by ReplyHubHQ</a>
           <Script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></Script>
         </main>
 
@@ -45,11 +46,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <a href="https://twitter.com/zizibiziETH" className="text-purple-500 text-xs md:text-sm underline">
                   <i className="fab fa-twitter text-purple-500 text-2xl md:text-lg"></i>
                   @zizibizi
-                </a>
+                  </a>
               </div>
               <div className="flex items-center mt-2 md:mt-0 md:ml-6 space-x-2 md:space-x-4">
                 <a href="https://twitter.com/otterolie" className="text-blue-500 text-xs md:text-sm underline">
-                <i className="fab fa-twitter text-blue-500 text-2xl md:text-lg"></i>
+                  <i className="fab fa-twitter text-blue-500 text-2xl md:text-lg"></i>
                   @OtterOlie
                 </a>
               </div>
